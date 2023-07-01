@@ -1,0 +1,121 @@
+[
+  {
+    "name": "体当たり",
+    "text": "",
+    "type": "物理",
+    "effects": [
+      {
+        "value": 30,
+        "type": "攻撃",
+        "target_for": "全体",
+        "target_num": 1,
+        "is_random": false
+      }
+    ]
+  },
+  {
+    "name": "かみつき",
+    "text": "",
+    "type": "物理",
+    "effects": [
+      {
+        "value": 50,
+        "type": "攻撃",
+        "target_for": "敵",
+        "target_num": 1,
+        "is_random": false
+      }
+    ]
+  },
+  {
+    "name": "テールアタック",
+    "text": "",
+    "type": "物理",
+    "effects": [
+      {
+        "value": 40,
+        "type": "攻撃",
+        "target_for": "敵",
+        "target_num": 1,
+        "is_random": false
+      },
+      {
+        "value": 30,
+        "type": "攻撃",
+        "target_for": "敵",
+        "target_num": 1,
+        "is_random": false
+      }
+    ]
+  },
+  {
+    "name": "翼で打つ",
+    "text": "",
+    "type": "物理",
+    "effects": [
+      {
+        "value": 60,
+        "type": "攻撃",
+        "target_for": "全体",
+        "target_num": 1,
+        "is_random": false
+      }
+    ]
+  },
+  {
+    "name": "不穏な空気",
+    "text": "",
+    "type": "魔法",
+    "effects": [
+      {
+        "value": 30,
+        "type": "攻撃",
+        "target_for": "敵",
+        "target_num": 4,
+        "is_random": true
+      }
+    ]
+  },
+  {
+    "name": "火の粉",
+    "text": "",
+    "type": "魔法",
+    "effects": [
+      {
+        "value": 50,
+        "type": "攻撃",
+        "target_for": "敵",
+        "target_num": 2,
+        "is_random": true
+      }
+    ]
+  },
+  {
+    "name": "水鉄砲",
+    "text": "",
+    "type": "魔法",
+    "effects": [
+      {
+        "value": 65,
+        "type": "攻撃",
+        "target_for": "敵",
+        "target_num": 1,
+        "is_random": false
+      }
+    ]
+  },
+  {
+    "name": "サンダー",
+    "text": "",
+    "type": "魔法",
+    "effects": [
+      {
+        "value": 40,
+        "type": "攻撃",
+        "target_for": "敵",
+        "target_num": 3,
+        "is_random": true
+      }
+    ]
+  }
+]

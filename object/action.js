@@ -6,10 +6,11 @@ phina.define("Action",
     /*---=---=---=---=---=---=---=---=---=---=---=---=---=---=---=---
         コンストラクタ
       ---=---=---=---=---=---=---=---=---=---=---=---=---=---=---=---*/
-    init: function (name, text, effects)
+    init: function (name, text, type, effects)
     {
       this.name = name;
       this.text = text;
+      this.type = type; //物理or魔法
       this.effects = effects; //配列
     }
     /*---=---=---=---=---=---=---=---=---=---=---=---=---=---=---=---*/

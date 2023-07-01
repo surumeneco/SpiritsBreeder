@@ -1,0 +1,222 @@
+[
+  {
+    "name": "モエルゴン",
+    "text": "",
+    "attributes": [
+      "火"
+    ],
+    "weakness": [
+      "水",
+      "氷"
+    ],
+    "actions": [
+      {
+        "name": "体当たり",
+        "level": 1
+      },
+      {
+        "name": "かみつき",
+        "level": 1
+      },
+      {
+        "name": "火の粉",
+        "level": 1
+      }
+    ],
+    "parameter": {
+      "HP": 220,
+      "DEX": 400,
+      "physical_ATK": 400,
+      "physical_DEF": 150,
+      "magical_ATK": 200,
+      "magical_DEF": 130
+    },
+    "dropitems": []
+  },
+  {
+    "name": "ヌレルモ",
+    "text": "",
+    "attributes": [
+      "水"
+    ],
+    "weakness": [
+      "雷",
+      "毒"
+    ],
+    "actions": [
+      {
+        "name": "体当たり",
+        "level": 1
+      },
+      {
+        "name": "テールアタック",
+        "level": 1
+      },
+      {
+        "name": "水鉄砲",
+        "level": 1
+      }
+    ],
+    "parameter": {
+      "HP": 250,
+      "DEX": 190,
+      "physical_ATK": 100,
+      "physical_DEF": 350,
+      "magical_ATK": 260,
+      "magical_DEF": 350
+    },
+    "dropitems": []
+  },
+  {
+    "name": "シビルーダ",
+    "text": "",
+    "attributes": [
+      "雷"
+    ],
+    "weakness": [
+      "火",
+      "爆"
+    ],
+    "actions": [
+      {
+        "name": "体当たり",
+        "level": 1
+      },
+      {
+        "name": "翼で打つ",
+        "level": 1
+      },
+      {
+        "name": "サンダー",
+        "level": 1
+      }
+    ],
+    "parameter": {
+      "HP": 180,
+      "DEX": 310,
+      "physical_ATK": 50,
+      "physical_DEF": 320,
+      "magical_ATK": 490,
+      "magical_DEF": 150
+    },
+    "dropitems": []
+  },
+  {
+    "name": "スライム",
+    "text": "",
+    "attributes": [],
+    "weakness": [
+      "地",
+      "風"
+    ],
+    "actions": [
+      {
+        "name": "体当たり",
+        "level": 1
+      },
+      {
+        "name": "不穏な空気",
+        "level": 1
+      }
+    ],
+    "parameter": {
+      "HP": 200,
+      "DEX": 250,
+      "physical_ATK": 250,
+      "physical_DEF": 50,
+      "magical_ATK": 50,
+      "magical_DEF": 200
+    },
+    "dropitems": []
+  },
+  {
+    "name": "レッドスライム",
+    "text": "",
+    "attributes": [
+      "火"
+    ],
+    "weakness": [
+      "水",
+      "氷"
+    ],
+    "actions": [
+      {
+        "name": "体当たり",
+        "level": 1
+      },
+      {
+        "name": "火の粉",
+        "level": 1
+      }
+    ],
+    "parameter": {
+      "HP": 200,
+      "DEX": 250,
+      "physical_ATK": 250,
+      "physical_DEF": 50,
+      "magical_ATK": 100,
+      "magical_DEF": 200
+    },
+    "dropitems": []
+  },
+  {
+    "name": "ブルースライム",
+    "text": "",
+    "attributes": [
+      "水"
+    ],
+    "weakness": [
+      "雷",
+      "毒"
+    ],
+    "actions": [
+      {
+        "name": "体当たり",
+        "level": 1
+      },
+      {
+        "name": "水鉄砲",
+        "level": 1
+      }
+    ],
+    "parameter": {
+      "HP": 200,
+      "DEX": 250,
+      "physical_ATK": 250,
+      "physical_DEF": 50,
+      "magical_ATK": 100,
+      "magical_DEF": 200
+    },
+    "dropitems": []
+  },
+  {
+    "name": "イエロースライム",
+    "text": "",
+    "attributes": [
+      "雷"
+    ],
+    "weakness": [
+      "火",
+      "爆"
+    ],
+    "actions": [
+      {
+        "name": "体当たり",
+        "level": 1
+      },
+      {
+        "name": "サンダー",
+        "level": 1
+      }
+    ],
+    "parameter": {
+      "HP": 200,
+      "DEX": 250,
+      "physical_ATK": 250,
+      "physical_DEF": 50,
+      "magical_ATK": 100,
+      "magical_DEF": 200
+    },
+    "dropitems": []
+  }
+]
