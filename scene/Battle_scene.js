@@ -11,7 +11,7 @@ phina.define("Battle_scene",
 
       ---=---=---=---=---=---=---=---=---=---=---=---=---=---=---=---*/
     superClass: "DisplayScene",
-    init: function (quest, option)
+    init: function (option, quest)
     {
       this.superInit(option);
 
@@ -45,7 +45,6 @@ phina.define("Battle_scene",
           ]
         ]
       };
-      console.log(temp);
 
       //this.quest = quest;
       this.quest = temp;
@@ -60,12 +59,11 @@ phina.define("Battle_scene",
           for (let action of enemy.actions)
           {
             action_list.push(
-              Actions_List.find(element => element.name == action.name)
+              Actions_List.find(element => element.name == action)
             );
           }
-          console.log(action_list);
           result.push(Spirit(
-            Species_List.find(species => species.name == enemy.name),
+            Species_List.find(species => species.name == enemy.species),
             enemy.sex,
             enemy.level, 0,
             action_list,
@@ -85,8 +83,6 @@ phina.define("Battle_scene",
         return result;
       }
       this.now_enemies = this.SetNowEnemies(this.quest.enemies[this.now_fase]);
-
-      console.log(this.now_enemies);
 
 
 

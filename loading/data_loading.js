@@ -45,7 +45,7 @@ const load_actions = function (data)
       element.text,
       element.type,
       effects_data
-    ))
+    ));
   }
 }
 

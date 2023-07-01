@@ -29,7 +29,7 @@ phina.main(function ()
     fps: 60,
 
     // startLabel: "タイトル",
-    startLabel: "戦闘",
+    startLabel: "メイン",
     scenes:
       [
         // {

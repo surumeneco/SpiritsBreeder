@@ -17,7 +17,7 @@ phina.define("Spirit",
       this.parameter = parameter; //Paramter型
       this.status_point = status_point; //StatusPoint型
 
-      this.finally_paramter = function () //最終ステータス
+      this.finally_parameter = function () //最終ステータス
       {
         let HP = this.species.parameter.HP + this.parameter.HP;
         let DEX = this.species.parameter.DEX + this.parameter.DEX;
@@ -36,7 +36,7 @@ phina.define("Spirit",
       {
         this.now_parameter = this.finally_paramter();
       };
-      this.now_parameter = this.finally_paramter();
+      this.now_parameter = this.finally_parameter();
     }
     /*---=---=---=---=---=---=---=---=---=---=---=---=---=---=---=---*/
   });
