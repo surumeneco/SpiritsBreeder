@@ -29,6 +29,9 @@ var time = 0;
 
 var score = 0;
 
+const Species_List = new Array();
+const Actions_List = new Array();
+
 //cookie
 var load_type = window.performance.navigation.type;
 

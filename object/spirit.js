@@ -6,14 +6,14 @@ phina.define("Spirit",
     /*---=---=---=---=---=---=---=---=---=---=---=---=---=---=---=---
         コンストラクタ
       ---=---=---=---=---=---=---=---=---=---=---=---=---=---=---=---*/
-    init: function (species, sex, level, exp, action, equip, parameter, status_point)
+    init: function (species, sex, level, exp, actions, equip, parameter, status_point)
     {
       this.species = species; //Species型
       this.sex = sex;
       this.level = level;
       this.exp = exp;
-      this.action = action; //長さ4配列
-      this.equip = equip;
+      this.actions = actions; //長さ4配列
+      this.equip = equip; //Equip型 nullなら装備無し
       this.parameter = parameter; //Paramter型
       this.status_point = status_point; //StatusPoint型
 
